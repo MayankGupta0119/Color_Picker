@@ -1,0 +1,35 @@
+.con1 {
+  margin: 10%;
+}
+.color-picker {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+button {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: white;
+  background: #4cb050;
+  border-style: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 720px) {
+  .con1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .color-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+}
